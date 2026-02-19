@@ -1,3 +1,12 @@
+--[[
+Name: Aidan Robledo
+Program: Number Guessing Game
+Description:
+This program picks a random number between 1 and 100.
+The player has 7 chances to guess the number.
+Also allows the player to play over and over.
+]]
+
 math.randomseed(os.time())
 
 local userContinue = "yes"
