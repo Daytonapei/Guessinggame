@@ -35,4 +35,9 @@ while userContinue == "yes" do
     if guess ~= computerNumber then
         print("You lose! The correct number was " .. computerNumber)
     end
+    
+    print("\nDo you want to play again? (yes/no)")
+    userContinue = string.lower(io.read())
 end
+
+print("Thanks for playing!")
